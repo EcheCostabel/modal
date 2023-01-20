@@ -65,6 +65,7 @@ a:hover {
     top: 4.5rem;
     left: 26.8rem;
     display: flex;
+    padding: 0 1rem;
 }
 
 .divSuperior {
@@ -72,15 +73,15 @@ a:hover {
     position: absolute;
     background: #FFFFFF;
     width: 18rem;
-    height: 22rem;
-    left: 27.5rem;
-    top: 3.5rem;
+    height: 24rem;
+    left: 48rem;
+    top: 2.5rem;
     border-radius: 9px;
 }
 
-.divInferior__Empty{
+/* .divInferior__Empty{
     width: 50%;
-}
+} */
 
 .divInferior__Principal--Cuenta{
     padding-top: 1.5rem;
@@ -118,7 +119,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 5rem;
+    height: 10rem;
 }
 
 .divSuperior__Input {
@@ -131,7 +132,7 @@ a:hover {
 }
 
 .divSuperior__Form > .divSuperior__Input {
-    height: 2rem;
+    height: 2.3rem;
 }
 
 .divSuperior > button{
@@ -165,6 +166,7 @@ a:hover {
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
+    height: 2rem;
 }
 
 .close > p {
@@ -174,7 +176,7 @@ a:hover {
 .divSuperior__Buttimg{
     display: flex;
     justify-content: space-around;
-    padding: 4rem 0;
+    padding: 2rem 0;
 }
 
 .divSuperior__Buttimg > img{
