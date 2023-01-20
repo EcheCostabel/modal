@@ -102,3 +102,91 @@ a:hover {
 
 
 
+.divSuperior__H5 {
+    color: rgba(46, 54, 123, 1);
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+
+}
+
+.divSuperior__Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+}
+
+.divSuperior__Input {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0.2rem 0;
+    background: #2e367b36;
+    border: none;
+}
+
+.divSuperior__Form > .divSuperior__Input {
+    height: 2rem;
+}
+
+.divSuperior > button{
+    width: 6rem;
+    height: 1.6rem;
+    background-color: rgba(46, 54, 123, 1);
+    color: white;
+    border: none;
+    margin: 4rem 0 0 0.8rem;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgba(46, 54, 123, 1);
+}
+@keyframes modal {
+    from {
+        top: -330px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0;
+        opacity: 1;
+    } 
+} 
+
+.close {
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close > p {
+    cursor: pointer;
+}
+
+.divSuperior__Buttimg{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
+
+.divSuperior__Buttimg > img{
+    height: 1.6rem;
+    width: 6rem;
+}
+
+.divSuperior__Buttimg > button{
+    width: 6rem;
+    height: 1.6rem;
+    background-color: rgba(46, 54, 123, 1);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
