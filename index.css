@@ -40,3 +40,65 @@ h1 {
     animation-duration: 1s;
 }
 
+a {
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(0, 0, 0)
+}
+
+a:hover {
+    background: #000;
+    color: #fff;
+}
+
+.divInferior {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    width: 40rem;
+    height: 20rem;
+    background-color: rgba(46, 54, 123, 1);
+    top: 4.5rem;
+    left: 26.8rem;
+    display: flex;
+}
+
+.divSuperior {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    background: #FFFFFF;
+    width: 18rem;
+    height: 22rem;
+    left: 27.5rem;
+    top: 3.5rem;
+    border-radius: 9px;
+}
+
+.divInferior__Empty{
+    width: 50%;
+}
+
+.divInferior__Principal--Cuenta{
+    padding-top: 1.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.reg{
+    font-size: 0.9rem;
+}
+.divInferior__Principal--Button{
+    width: 7rem;
+    height: 2rem;
+    border: 1px solid white;
+    background: #2E367B;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
