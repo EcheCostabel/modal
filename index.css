@@ -59,13 +59,14 @@ a:hover {
 .divInferior {
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    width: 40rem;
+    width: 37rem;
     height: 20rem;
     background-color: rgba(46, 54, 123, 1);
     top: 4.5rem;
     left: 26.8rem;
     display: flex;
     padding: 0 2rem;
+    margin-left: 3rem;
 }
 
 .divSuperior {
@@ -74,7 +75,7 @@ a:hover {
     background: #FFFFFF;
     width: 18rem;
     height: 24rem;
-    left: 48rem;
+    left: 52rem;
     top: 2.5rem;
     border-radius: 9px;
 }
