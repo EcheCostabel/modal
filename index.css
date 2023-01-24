@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 
-
 header {
     width: 100%;
     height: auto;
@@ -17,7 +16,6 @@ h1 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
-
 
 .modal {
     display: none;
@@ -87,9 +85,11 @@ a:hover {
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 .reg{
     font-size: 0.9rem;
 }
+
 .divInferior__Principal--Button{
     width: 7rem;
     height: 2rem;
@@ -98,8 +98,6 @@ a:hover {
     color: #fff;
     cursor: pointer;
 }
-
-
 
 .divSuperior__H5 {
     color: rgba(46, 54, 123, 1);
@@ -146,6 +144,7 @@ a:hover {
 ::placeholder{
     color: rgba(46, 54, 123, 1);
 }
+
 @keyframes modal {
     from {
         top: -330px;
